@@ -1,0 +1,49 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background: #f8edb9;
+}
+.image-swiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    overflow-x: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: none;
+    height: 480px;
+  }
+  
+  .image-container img.active {
+    display: block;
+  }
+  
+  .controls  {
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    margin: 0 10px;
+  }
+  .controls button{
+   padding: 15px 10px;
+   margin: 10px;
+   font-size: 17px;
+   border-radius: 6px;
+    color: #fff;
+   background: #504533;
+   border: 1px solid #504533;
+
+  }
